@@ -1,0 +1,26 @@
+.gallery {
+  margin-top: 2%;
+  display: flex;
+}
+.gallery .myImg {
+  border: solid 1px black;
+}
+.gallery .myImg:hover {
+  opacity: 0.5;
+}
+
+.slider .popup {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.slider .popup .inner {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  top: 1%;
+  border: solid 10px;
+}
+.slider .popup .inner .image {
+  width: 100%;
+}

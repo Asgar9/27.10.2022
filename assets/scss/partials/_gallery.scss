@@ -1,0 +1,10 @@
+.gallery{
+    margin-top: 2%;
+    display: flex;
+   .myImg{
+       border: solid 1px black;
+   &:hover{
+    opacity: 0.5;
+   }
+    }
+}
